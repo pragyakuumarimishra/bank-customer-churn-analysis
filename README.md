@@ -24,7 +24,18 @@ A synthetic dataset modeled on publicly available bank churn datasets
 - Simplify product bundles
 - Targeted loyalty programs for mid-aged customers
 
+### Screenshots
+**Overall churn**
+![Overall churn](screenshots/churn_overall.png)
+
+**Churn by age group**
+![Churn by age](screenshots/churn_by_age.png)
+
+**Churn by number of products**
+![Churn by products](screenshots/churn_by_products.png)
+
 ### How to Run
 ```bash
 pip install -r requirements.txt
 python churn_analysis.py
+```
